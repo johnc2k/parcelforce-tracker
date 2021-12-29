@@ -6,7 +6,7 @@ Scrapes the Parcelforce Tracking website every hour for tracking events and send
 
 **Usage:**
 
-`docker run -d --env TRACKING_ID=EV123456789CN --env TG_BOT_TOKEN=12345:foObaRsTr1ng --env TG_CHAT_ID=12345 --name ParcelforceTracker parcelforcetracker:latest`
+`docker run -d --env TRACKING_ID=EV123456789CN --env TG_BOT_TOKEN=12345:foObaRsTr1ng --env TG_CHAT_ID=12345 --name ParcelforceTracker parcelforce-tracker:latest`
 
 **Todo:**
 * ~~Fix: Make Tracking ID an environmental variable~~
